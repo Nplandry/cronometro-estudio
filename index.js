@@ -15,6 +15,7 @@ document.addEventListener("dblclick", (()=> {
     const intervaloMinutos = setInterval(incrementarMinutos, 60000);
     const intervaloHoras = setInterval(incrementarHoras, 3600000);
     h1.style.opacity = 0;
+    h1.style.color = "#666"
 }))
 
 numbers1.innerText = "00"

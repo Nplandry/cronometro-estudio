@@ -31,7 +31,7 @@ html, body {
     position: absolute;
     top: 5%;
     left: 28.4%;
-    transition: opacity 0.3s;
+    transition: opacity 0.7s;
     animation: h1-default 2s;
     animation-iteration-count: infinite;
 }
@@ -44,7 +44,7 @@ html, body {
     align-items: center;
     align-content: center;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .number-box {
