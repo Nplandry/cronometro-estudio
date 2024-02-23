@@ -1,0 +1,36 @@
+@media (max-width: 500px) {
+    .container {
+    max-width: 500px;
+}
+.number-container {
+    gap: 10px; 
+} 
+.number-box {
+    width: 180px;
+    line-height: 200px;
+}
+.number-box span {
+    font-size: 150px;
+}
+.container h1 {
+    top: 12%;
+    left: 0;
+    text-align: center;
+}
+}
+@media (max-height: 500px) {
+    .container h1 {
+    top: 3%;
+    left: 12%;
+    text-align: center;
+}
+    .number-box {
+    width: 180px;
+    line-height: 200px;
+    }
+    
+    .number-box span {
+    font-size: 130px;      
+    }
+
+}

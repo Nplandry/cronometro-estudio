@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #494848;
+    
+}
+
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 900px;
+    background-color: #494848;
+    align-items: center;
+    height: 100vh;
+    user-select: none;
+}
+
+.container h1 {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    left: 28.4%;
+    transition: opacity 0.7s;
+    animation: h1-default 2s;
+    animation-iteration-count: infinite;
+}
